@@ -26,6 +26,7 @@ app.post("/configureMercadoPago", (req, res) => {
   res.sendStatus(200);
 });
 // Routes
+app.get("/", (req, res)=> [res.send('Hello World!')]);
 app.put("/updateuser/:username", UserController.editUser);
 app.put("/updateitem/:id", ItemController.update);
 app.delete("/deleteuser/:username", UserController.deleteUser);
