@@ -48,7 +48,7 @@ app.post("/createorder", (req, res) => {
         },
       ],
       back_urls: {
-        success: "http://localhost:5173",
+        success: "https://backendbee.vercel.app/",
         failure: "https://tdiascontato.vercel.app",
         pending: "",
       },
@@ -69,5 +69,5 @@ app.post("/createorder", (req, res) => {
 
 // Canal Servidor
 app.listen(process.env.PORT, () => {
-    console.log(`Estamos rodando em http://localhost:${process.env.PORT}/`);
+    console.log(`Estamos rodando em http://https://backendbee.vercel.app:${process.env.PORT}/`);
 });
