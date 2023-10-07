@@ -69,5 +69,5 @@ app.post("/createorder", (req, res) => {
 
 // Canal Servidor
 app.listen(process.env.PORT, () => {
-    console.log(`Estamos rodando em http://https://backendbee.vercel.app:${process.env.PORT}/`);
+    console.log(`Estamos rodando em https://backendbee.vercel.app:${process.env.PORT}/`);
 });
